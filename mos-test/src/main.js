@@ -1,5 +1,5 @@
 import './style.css'
-import confetti from 'canvas-confetti'
+/* import confetti from 'canvas-confetti' */
 import validator from "email-validator"
 
 import javascriptLogo from './javascript.svg'

@@ -1,4 +1,3 @@
-/* import * animate from "animejs" */
 import confetti from "canvas-confetti"
 
 const btn = document.getElementById("btn")
@@ -16,7 +15,6 @@ const timer = document.getElementById("timer")
 
 btn.onclick = () => {
     let timeleft = 5
-    
     const countDown = () => {
         timer.textContent = timeleft
         if (timeleft > 0) {
@@ -27,8 +25,7 @@ btn.onclick = () => {
             confetti()
         }
     }
-
-   countDown()
+    countDown()
 }
 
 /* btn.onclick = () => {
