@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mos-test</title>
+  </head>
+  <body>
+    <div id="app">
+
+      <form id="mainForm">
+        <label for="name">Ditt namn:</label>
+        <input id="name" type="text" required > <br/>
+        <label for="email" >Epost:</label>
+        <input id="email" type="text" ><br/>
+        <button id="submit" onclick="validateForm()">Registrera</button>
+        <div id="msg" ></div>
+      </form>
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
